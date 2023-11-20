@@ -20,7 +20,6 @@ const Post = ({ post }) => {
             <div className="post-body">
                 {author && <p>By: {author.name}</p>}
                 <p>{post.body}</p>
-                <div className="separator"></div>
             </div>
         </div>
     );
